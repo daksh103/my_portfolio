@@ -6,13 +6,14 @@
   <title>Daksh Arora · Associate Product Manager at Paytm</title>
   <meta name="description" content="Daksh Arora is an Associate Product Manager at Paytm with a builder background in RevOps, workflow automation and AI tooling. Case studies, experience and contact.">
   <meta name="author" content="Daksh Arora">
-  <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#07090C">
+  <meta name="color-scheme" content="dark">
   <!-- TODO(domain): set the final URL once the Vercel domain is chosen, then uncomment. -->
   <!-- <link rel="canonical" href="https://TODO-domain/"> -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Daksh Arora · Associate Product Manager at Paytm">
   <meta property="og:description" content="Product manager who builds: CRM and billing systems, workflow automation, and small AI tools.">
+  <!-- TODO(domain): make this an absolute URL (https://<domain>/og.png) once the domain is set. -->
   <meta property="og:image" content="/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -21,8 +22,8 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500&display=swap">
+  <link rel="preload" as="image" href="/images/daksh-headshot-800.webp" type="image/webp">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -32,6 +33,7 @@
     "worksFor": {"@type": "Organization", "name": "Paytm"},
     "alumniOf": {"@type": "CollegeOrUniversity", "name": "Jaypee Institute of Information Technology, Noida"},
     "email": "mailto:daksh007arora@gmail.com",
+    "image": "/images/daksh-headshot-800.jpg",
     "sameAs": [
       "https://www.linkedin.com/in/daksh-arora-1338ab234/",
       "https://x.com/dksh007",
@@ -41,197 +43,15 @@
   </script>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-
-  <header class="nav-wrap">
-    <nav class="nav" aria-label="Primary">
-      <a class="mark" href="#top" aria-label="Daksh Arora, home">DA</a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
-      <ul id="nav-links" class="nav-links">
-        <li><a href="#work">Work</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a class="nav-cta" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main id="main">
-    <!-- HERO -->
-    <section id="top" class="hero container">
-      <div class="hero-text">
-        <p class="eyebrow">Associate Product Manager · Paytm</p>
-        <h1>I'm a product manager who <em>builds</em> the systems behind the product.</h1>
-        <p class="lede">I'm Daksh Arora, an Associate Product Manager at Paytm. Before this I ran product and revenue operations at Omniful.ai, where I designed the billing module in the platform dashboard and built the CRM and automation behind it. I still build: n8n workflows, API integrations and small AI tools.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#work">See selected work</a>
-          <a class="btn" href="mailto:daksh007arora@gmail.com">Email me</a>
-        </div>
-        <ul class="facts" aria-label="Quick facts">
-          <li>APM at Paytm</li>
-          <li>Ex-Omniful.ai, Product &amp; RevOps</li>
-          <li>B.Tech CSE, JIIT Noida</li>
-          <li>India</li>
-        </ul>
-      </div>
-      <figure class="hero-photo">
-        <picture>
-          <source srcset="/images/daksh-480.webp" type="image/webp">
-          <img src="/images/daksh-480.jpg" width="480" height="480" alt="Portrait of Daksh Arora" fetchpriority="high">
-        </picture>
-      </figure>
-    </section>
-
-    <!-- WORK / CASE STUDIES -->
-    <section id="work" class="section container" aria-labelledby="work-h">
-      <div class="section-head">
-        <p class="label">01 · Selected work</p>
-        <h2 id="work-h">Two things I built, and why</h2>
-        <p class="section-sub">Each one is written as the problem, what I did, and what came of it.</p>
-      </div>
-
-      <div class="cases">
-        <article class="case">
-          <header class="case-head">
-            <p class="case-kicker">Automation · RevOps</p>
-            <h3>Business process automation with n8n</h3>
-            <ul class="tags" aria-label="Tools"><li>n8n</li><li>HubSpot</li><li>REST APIs</li><li>Webhooks</li></ul>
-          </header>
-          <dl class="case-body">
-            <div><dt>Problem</dt><dd>Business workflows that ran across HubSpot and other tools depended on people moving data between systems by hand. <span class="todo">TODO: one line on which workflows, and the cost (time, errors, delays)</span></dd></div>
-            <div><dt>What I did</dt><dd>Designed and built automated workflows in n8n that connect HubSpot with other services through APIs and webhooks, so records and actions flow between systems without manual steps.</dd></div>
-            <div><dt>Result</dt><dd><span class="todo">TODO: outcome, e.g. hours saved per week or number of workflows live. Add only real numbers.</span></dd></div>
-          </dl>
-        </article>
-
-        <article class="case">
-          <header class="case-head">
-            <p class="case-kicker">AI · Content pipeline</p>
-            <h3>AI short-form video generator</h3>
-            <ul class="tags" aria-label="Tools"><li>Python</li><li>LLM scripts</li><li>Automation</li></ul>
-          </header>
-          <dl class="case-body">
-            <div><dt>Problem</dt><dd>Making short-form videos by hand is slow and repetitive, which makes it hard to publish consistently.</dd></div>
-            <div><dt>What I did</dt><dd>Built an automated Python pipeline that turns AI-generated scripts into finished short-form videos end to end.</dd></div>
-            <div><dt>Result</dt><dd><span class="todo">TODO: videos produced, time per video, or views. Add a link or sample clip.</span></dd></div>
-          </dl>
-        </article>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section container" aria-labelledby="exp-h">
-      <div class="section-head">
-        <p class="label">02 · Experience</p>
-        <h2 id="exp-h">Where I've worked</h2>
-      </div>
-      <ol class="timeline">
-        <li class="role role-current">
-          <div class="role-when">Now</div>
-          <div class="role-what">
-            <h3>Associate Product Manager <span class="at">· Paytm</span></h3>
-            <!-- Generic, non-confidential line. Daksh to edit. -->
-            <p>I work with engineering, design and business teams to define, ship and improve product features for Paytm's users, from problem discovery and requirements through launch and iteration.</p>
-          </div>
-        </li>
-        <li class="role">
-          <div class="role-when">Jun 2025 – May 2026</div>
-          <div class="role-what">
-            <h3>Product Management &amp; Revenue Operations Manager <span class="at">· Omniful.ai</span></h3>
-            <ul>
-              <li>Led product design of the billing module in the platform dashboard.</li>
-              <li>Built the end-to-end HubSpot CRM architecture: lifecycle automation, lead routing and billing operations workflows.</li>
-              <li>Set up support operations on DevRev.</li>
-              <li>Built RevOps dashboards.</li>
-            </ul>
-          </div>
-        </li>
-        <li class="role">
-          <div class="role-when">Jun – Jul 2024</div>
-          <div class="role-what">
-            <h3>Policy Formulation Intern <span class="at">· Department of IT, Government of Himachal Pradesh</span></h3>
-            <p>Worked on technology-adoption policy with the Principal IT Advisor's office.</p>
-          </div>
-        </li>
-        <li class="role">
-          <div class="role-when">Jun – Jul 2023</div>
-          <div class="role-what">
-            <h3>Data Analysis Intern <span class="at">· MeitY / Digital India Corporation</span></h3>
-            <p>Analysed and classified data for the Poshan Tracker project using MySQL.</p>
-          </div>
-        </li>
-      </ol>
-
-      <div class="also">
-        <h3 class="label">Also</h3>
-        <ul>
-          <li>2nd place, OSDCODE JAM-4v: a music player with chat rooms for people with similar taste (HTML, CSS, JavaScript).</li>
-          <li>Led a team of 6 at Smart India Hackathon 2023 on an AI/ML problem statement from the Ministry of Education.</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section container" aria-labelledby="skills-h">
-      <div class="section-head">
-        <p class="label">03 · Toolkit</p>
-        <h2 id="skills-h">What I work with</h2>
-      </div>
-      <div class="skills">
-        <div class="skill-group">
-          <h3>Product</h3>
-          <ul><li>Product management</li><li>Data analysis</li><li>Jira</li><li>Notion</li><li>Rocketlane</li><li>Canva</li><li>Photoshop</li></ul>
-        </div>
-        <div class="skill-group">
-          <h3>Ops &amp; RevOps</h3>
-          <ul><li>HubSpot CRM</li><li>Revenue operations</li><li>Lead routing</li><li>Billing ops</li><li>DevRev</li><li>Sheets / Excel</li></ul>
-        </div>
-        <div class="skill-group">
-          <h3>Tech</h3>
-          <ul><li>Python</li><li>JavaScript</li><li>SQL / MySQL</li><li>C++</li><li>C</li><li>Django</li><li>HTML &amp; CSS</li><li>Bootstrap</li></ul>
-        </div>
-        <div class="skill-group">
-          <h3>AI &amp; automation</h3>
-          <ul><li>n8n</li><li>Zapier</li><li>Workflow automation</li><li>API integrations</li><li>Webhooks</li><li>Local LLMs (Ollama)</li></ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section container about" aria-labelledby="about-h">
-      <div class="section-head">
-        <p class="label">04 · About</p>
-        <h2 id="about-h">Engineer by training, PM by choice</h2>
-      </div>
-      <div class="about-body">
-        <p>I studied Computer Science at Jaypee Institute of Information Technology, Noida (B.Tech, 2026). Along the way I worked on government data and policy, built side projects, and then spent a year owning product and revenue operations at a SaaS start-up.</p>
-        <p>That mix shapes how I work as a PM. I like to understand how a system really works before I change it, and when a process is slow, my first instinct is to automate it rather than add a step.</p>
-        <p class="todo">TODO: one or two lines in your own voice: what kind of problems you want to work on next, or what you're learning right now.</p>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section container contact" aria-labelledby="contact-h">
-      <p class="label">05 · Contact</p>
-      <h2 id="contact-h">Let's talk product.</h2>
-      <p class="section-sub">The fastest way to reach me is email. I'm also on LinkedIn and X.</p>
-      <a class="contact-email" href="mailto:daksh007arora@gmail.com">daksh007arora@gmail.com</a>
-      <ul class="contact-links">
-        <li><a href="https://www.linkedin.com/in/daksh-arora-1338ab234/" rel="me noopener" target="_blank">LinkedIn ↗</a></li>
-        <li><a href="https://x.com/dksh007" rel="me noopener" target="_blank">X / Twitter ↗</a></li>
-        <li><a href="https://github.com/daksh103" rel="me noopener" target="_blank">GitHub ↗</a></li>
-        <!-- TODO(resume): add a resume PDF without the phone number, then uncomment. -->
-        <!-- <li><a href="/Daksh-Arora-Resume.pdf">Résumé (PDF)</a></li> -->
-      </ul>
-    </section>
-  </main>
-
-  <footer class="footer container">
-    <p>© <span id="year">2026</span> Daksh Arora</p>
-    <p><a href="#top">Back to top ↑</a></p>
-  </footer>
-
-  <script src="/script.js" defer></script>
+  <div id="root"></div>
+  <noscript>
+    <p style="font-family:sans-serif;color:#E8EDF2;background:#07090C;padding:24px">
+      Daksh Arora, Associate Product Manager at Paytm. Email: <a style="color:#C6F432" href="mailto:daksh007arora@gmail.com">daksh007arora@gmail.com</a> ·
+      <a style="color:#C6F432" href="https://www.linkedin.com/in/daksh-arora-1338ab234/">LinkedIn</a> ·
+      <a style="color:#C6F432" href="https://x.com/dksh007">X</a> ·
+      <a style="color:#C6F432" href="https://github.com/daksh103">GitHub</a>
+    </p>
+  </noscript>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
