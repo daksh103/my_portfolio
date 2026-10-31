@@ -49,10 +49,11 @@ I am a passionate and driven individual with a keen interest in technology, part
   Birla Vidya Niketan, Delhi - 94.3% (2020)
 
 ## Projects
-### ProGo
-- Open-source repository recommendation platform
-- Technologies: HTML, CSS, JavaScript, PHP, Flask, Bootstrap, GitHub API, SQL, NLP
-- Features: Personalized recommendations, responsive design, secure data handling
+### Business process automation (n8n)
+- HubSpot CRM integrations, webhooks, and RevOps workflows
+
+### AI short-form video generator
+- Python automation pipeline for script-to-video content
 
 ## Contact Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daksh%20Arora-blue)](https://www.linkedin.com/in/daksh-arora-1338ab234/)
