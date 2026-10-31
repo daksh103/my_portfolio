@@ -37,7 +37,7 @@ export function Hero() {
             <p className="body-lg" style={{ margin: 0, maxWidth: '34rem' }}>
               {site.bio}
             </p>
-            <div>
+            <div className="hero__meta">
               <div className="hero__actions">
                 <button
                   type="button"

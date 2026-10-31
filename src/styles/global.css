@@ -467,6 +467,12 @@ img {
   }
 }
 
+.hero__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
