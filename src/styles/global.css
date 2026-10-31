@@ -446,7 +446,6 @@ img {
   aspect-ratio: 25 / 26;
   object-fit: cover;
   object-position: center top;
-  filter: grayscale(100%);
 }
 
 .hero__details {
