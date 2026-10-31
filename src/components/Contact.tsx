@@ -12,7 +12,7 @@ function SectionLabel({ num, title }: { num: string; title: string }) {
 
 export function Contact() {
   const revealRef = useScrollReveal();
-  const { linkedin, x, github } = site.links;
+  const { linkedin, x } = site.links;
 
   return (
     <section id="contact" className="section-anchor section-pad" aria-labelledby="contact-heading">
@@ -38,7 +38,7 @@ export function Contact() {
             </div>
 
             <div className="contact-links" style={{ marginTop: '2.5rem' }}>
-              {[linkedin, x, github].map((link) => (
+              {[linkedin, x].map((link) => (
                 <div key={link.label}>
                   <hr className="rule" />
                   <p className="contact-link__label">{link.label}</p>

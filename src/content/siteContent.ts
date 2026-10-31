@@ -20,11 +20,6 @@ export const site = {
       href: 'https://x.com/dksh007',
       display: 'x.com/dksh007',
     },
-    github: {
-      label: 'GITHUB',
-      href: 'https://github.com/daksh103',
-      display: 'github.com/daksh103',
-    },
   },
   facts: [
     'APM at Paytm',
