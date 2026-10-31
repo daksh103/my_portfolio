@@ -139,7 +139,6 @@ export const skillGroups = [
     items: [
       'Python',
       'JavaScript',
-      'SQL / MySQL',
       'C++',
       'C',
       'Django',
