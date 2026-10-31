@@ -132,7 +132,6 @@ export const skillGroups = [
       'Lead routing',
       'Billing ops',
       'DevRev',
-      'Sheets / Excel',
     ],
   },
   {
